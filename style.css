@@ -1,0 +1,19 @@
+.sprite
+{
+background-image:url("_Run.png");    
+width: 120px;
+height: 80px;
+animation: KnightRun 2s; 
+animation-iteration-count: infinite;
+animation-timing-function: steps(10);
+
+}
+
+@keyframes KnightRun
+{
+    from{}
+to{
+background-position: -1200px;  
+
+}    
+}
