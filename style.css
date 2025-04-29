@@ -37,3 +37,23 @@ background-position: -672px;
 
 }    
 }
+
+.warrior
+{
+background-image: url(Valkyrie_spritesheet.png); 
+height: 96px;
+width: 96px;
+animation: valkyrie 2s;
+animation-iteration-count: infinite;
+animation-timing-function: steps(10);
+background-image: url(Valkyrie_spritesheet.png)
+}
+
+@keyframes valkyrie
+{
+from{}
+to{
+background-position: -960px;  
+
+}   
+}
