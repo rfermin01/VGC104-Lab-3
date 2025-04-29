@@ -17,3 +17,23 @@ background-position: -1200px;
 
 }    
 }
+
+.attack
+{
+background-image:url("ATTACK\ 1.png");    
+width: 96px;
+height: 96px;
+animation: Attack 1s; 
+animation-iteration-count: infinite;
+animation-timing-function: steps(7);
+
+}
+
+@keyframes Attack
+{
+    from{}
+to{
+background-position: -672px;  
+
+}    
+}
