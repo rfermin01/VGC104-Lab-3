@@ -46,13 +46,36 @@ width: 96px;
 animation: valkyrie 2s;
 animation-iteration-count: infinite;
 animation-timing-function: steps(10);
-background-image: url(Valkyrie_spritesheet.png)
 }
 
 @keyframes valkyrie
 {
 from{}
 to{
+background-position: -960px;  
+
+}   
+}
+
+.coin {
+    background-image: url(coin.png);
+    height: 16px;
+    width: 16px;
+    animation: CoinSpin 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: steps(12);
+}
+
+@keyframes CoinSpin {
+    from
+    {
+        
+    }
+    to
+    {
+        background-position: -192px;
+    }
+}
 background-position: -960px;  
 
 }   
